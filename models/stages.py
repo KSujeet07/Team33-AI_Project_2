@@ -120,4 +120,4 @@ class Stage5_CardiacPrediction(nn.Module):
             'EF': ef,
             'EDV': edv,
             'ESV': esv
-        }
+        }A
