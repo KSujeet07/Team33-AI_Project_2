@@ -1,21 +1,26 @@
-
+# Virtual environment
 .venv/
-__pycache__/
-*.py[cod]
-.env
-.vscode/
-.idea/
 
-# Dataset and video files
+# Dataset folders - real and dummy data
 data_dir/
+data/EchoNet-Dynamic/
+data_dir/EchoNet-Dynamic/
+
+# Video and dataset files
 *.avi
 *.mp4
 *.mov
+*.csv
+
+# macOS metadata
+.DS_Store
 
 # Model checkpoints
 *.pth
 *.pt
 *.ckpt
 
-# Python cache
-.pytest_cache/
+# Secrets and cache
+.env
+__pycache__/
+*.py[cod]
